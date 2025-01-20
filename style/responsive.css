@@ -1,3 +1,17 @@
+/* 992 Media */
+@media  screen and (max-width: 992px){
+  /* Banner */
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner_content{
+    align-items: center;
+    text-align: center;
+  }
+  .banner_heading{
+    font-size: 40px;
+  }
+}
 /* 819 Media */
 @media  screen and (max-width: 819px){
   /* NavBar */
@@ -30,5 +44,18 @@
   #check:checked ~ .nav_content{
     top: 85px;
     border-bottom: 1px solid var(--border-color);
+  }
+}
+/* 576 Media */
+@media  screen and (max-width: 576px){
+  /* Banner */
+  .banner_heading{
+    font-size: 30px;
+  }
+  .banner_dis{
+    font-size: 18px;
+  }
+  .banner_image img{
+    width: 100%;
   }
 }
