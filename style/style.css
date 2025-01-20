@@ -53,21 +53,19 @@ button{
   --btn-1: #FEA301;
   --btn-2: #95B226;
   --btn-3: #5D58F0;
+  --border-color: #dbd6d6;
 }
 .body-screen{
   max-width: 1300px;
   margin: auto;
 }
 /* ==(Header)== */
-#header{
-  padding: 0 20px;
-}
 /* Navbar */
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px;
 }
 .logo{
   display: flex;
@@ -102,4 +100,10 @@ button{
   font-weight: 600;
   padding: 10px 40px;
   border-radius: 8px;
+}
+.manu_input{
+  display: none;
+}
+.open_menu, .close_menu{
+  display: none;
 }
