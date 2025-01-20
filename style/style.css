@@ -1,0 +1,17 @@
+/* Design By - abdullahalsifat.com */
+/* Google Fonts */
+@font-face {
+  font-family: 'quicksand';
+  src: url(../assets/fonts/Quicksand-Regular.ttf);
+}
+/* Default Setting */
+*{
+  font-family: 'quicksand';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::selection{
+  background-color: #FEA301;
+  color: white;
+}
