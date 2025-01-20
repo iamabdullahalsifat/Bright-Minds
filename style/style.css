@@ -107,3 +107,34 @@ button{
 .open_menu, .close_menu{
   display: none;
 }
+/* Banner */
+.banner{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.banner_content{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+.banner_heading{
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 600px;
+}
+.banner_dis{
+  color: var(--heading-color);
+  font-size: 20px;
+}
+.banner_button{
+  background-color: var(--heading-color);
+  color: var(--bg-color);
+  padding: 12px 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
