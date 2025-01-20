@@ -11,6 +11,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: var(--bg-color);
+}
 ::selection{
   background-color: var(--btn-1);
   color: var(--bg-color);
@@ -72,7 +75,7 @@ button{
   gap: 8px;
 }
 .logo_image{
-  width: 30%;
+  width: 22%;
 }
 .site_title{
   font-size: 24px;
@@ -84,6 +87,7 @@ button{
   justify-content: space-between;
   align-items: center;
   flex-basis: 62%;
+  gap: 30px;
 }
 .nav_link{
   display: flex;
