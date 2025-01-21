@@ -143,7 +143,7 @@ button{
 }
 /* ==(Main)== */
 #main{
-  background-image: url(../assets/image/bg.png);
+  background-image: url(../assets/image/bg.png), linear-gradient(to top, var(--linear-2) 0%, var(--bg-color) 100%);
 }
 /* Learning Journey */
 .learning{
@@ -198,4 +198,67 @@ button{
   align-items: center;
   gap: 10px;
   margin-top: 40px;
+}
+/* Stories */
+.stories{
+  padding: 0 20px 50px;
+  margin-top: 40px;
+}
+.stories_heading{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.stories_card{
+  display: flex;
+  gap: 20px;
+}
+.stories_card_left{
+  background-color: var(--bg-color);
+  border-radius: 16px;
+}
+.stories_card_left > img{
+  width: 100%;
+}
+.stories_card_left_content{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.stories_card_right{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.stories_card_right_content{
+  background-color: var(--bg-color);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.stories_card_right_content > img{
+  width: 100%;
+}
+.stories_card_right_content_dis{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.stories_btn{
+  background-color: var(--btn-2);
+  padding: 8px 15px;
+  border-radius: 25px;
+  color: var(--bg-color);
+  position: absolute;
+  top: -25px;
+  font-size: 16px;
+}
+.stories_btn-1{
+  background-color: var(--footer-color);
+}
+.stories_btn-2{
+  background-color: var(--btn-3);
 }
