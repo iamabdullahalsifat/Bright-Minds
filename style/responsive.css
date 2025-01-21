@@ -47,6 +47,18 @@
   }
 }
 /* 768 Media */
+@media  screen and (max-width: 768px){
+  /* Learing Journey */
+  .learning_card{
+    grid-template-columns: auto auto;
+  }
+  .learing_next_before_btn{
+    display: none;
+  }
+  .learning_heading{
+    font-size: 25px;
+  }
+}
 /* 576 Media */
 @media  screen and (max-width: 576px){
   /* Banner */
@@ -58,5 +70,19 @@
   }
   .banner_image img{
     width: 100%;
+  }
+  /* Learing Journey */
+  .learning{
+    margin-top: 35px;
+  }
+  .learning_card{
+    grid-template-columns: auto;
+  }
+}
+/* 400 Media */
+@media  screen and (max-width: 400px){
+  /* Learning Journey */
+  .learing_image{
+    width: 35%;
   }
 }
