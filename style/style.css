@@ -262,3 +262,52 @@ button{
 .stories_btn-2{
   background-color: var(--btn-3);
 }
+/* ==(Footer)== */
+#footer{
+  background-color: var(--footer-color);
+  padding: 50px 0;
+}
+.footer_content{
+  padding: 0 20px;
+  color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+}
+.footer_dis_content{
+  display: flex;
+  align-items: center;
+}
+.footer_dis_heading{
+  font-size: 24px;
+}
+.footer_dis_p{
+  max-width: 400px;
+  color: var(--bg-color);
+  margin-top: 20px;
+}
+.footer_heading{
+  font-size: 20px;
+}
+.footer_nav{
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_nav a{
+  color: var(--bg-color);
+}
+.footer_icon_list{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer_icon_svg{
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer_icon_svg:hover{
+  transform: scale(1.1);
+}
