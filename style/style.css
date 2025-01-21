@@ -103,6 +103,10 @@ button{
   font-weight: 600;
   padding: 10px 40px;
   border-radius: 8px;
+  transition: 0.4s ease-in-out;
+}
+.nav_button:hover{
+  background-color: var(--heading-color);
 }
 .manu_input{
   display: none;
@@ -140,6 +144,10 @@ button{
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.banner_button:hover{
+  background-color: var(--btn-1);
 }
 /* ==(Main)== */
 #main{
