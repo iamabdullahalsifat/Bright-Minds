@@ -287,6 +287,18 @@ button{
 .stories_hide{
   display: none;
 }
+.load_more_btn{
+  background-color: var(--heading-color);
+  color: var(--bg-color);
+  padding: 10px 25px;
+  border-radius: 8px;
+  display: block;
+  margin: 40px auto 0;
+  transition: 0.3s ease-in-out;
+}
+.load_more_btn:hover{
+  background-color: var(--btn-1);
+}
 /* ==(Footer)== */
 #footer{
   background-color: var(--footer-color);
