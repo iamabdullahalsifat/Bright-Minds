@@ -46,6 +46,7 @@
     border-bottom: 1px solid var(--border-color);
   }
 }
+/* 768 Media */
 /* 576 Media */
 @media  screen and (max-width: 576px){
   /* Banner */
