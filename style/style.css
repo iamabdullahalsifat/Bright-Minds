@@ -262,6 +262,9 @@ button{
 .stories_btn-2{
   background-color: var(--btn-3);
 }
+.stories_hide{
+  display: none;
+}
 /* ==(Footer)== */
 #footer{
   background-color: var(--footer-color);

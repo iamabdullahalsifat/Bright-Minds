@@ -11,6 +11,16 @@
   .banner_heading{
     font-size: 40px;
   }
+  /* Stories */
+  .stories_card_left{
+    display: none;
+  }
+  .stories_card_right{
+    width: 100%;
+  }
+  .stories_hide{
+    display: block;
+  }
 }
 /* 819 Media */
 @media  screen and (max-width: 819px){
@@ -45,6 +55,11 @@
     top: 85px;
     border-bottom: 1px solid var(--border-color);
   }
+  /* Footer */
+  .footer_content{
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 /* 768 Media */
 @media  screen and (max-width: 768px){
@@ -76,6 +91,17 @@
     margin-top: 35px;
   }
   .learning_card{
+    grid-template-columns: auto;
+  }
+  /* Stories */
+  .stories_btn{
+    font-size: 14px;
+  }
+}
+/* 430 Media */
+@media  screen and (max-width: 430px){
+  /* Stories */
+  .stories_card_right{
     grid-template-columns: auto;
   }
 }
