@@ -27,6 +27,11 @@
   /* NavBar */
   .navbar{
     border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--bg-color);
+    z-index: 1;
   }
   .nav_content{
     position: fixed;
@@ -55,6 +60,10 @@
     top: 85px;
     border-bottom: 1px solid var(--border-color);
   }
+  /* Banner */
+  .banner{
+    margin-top: 80px;
+  }
   /* Footer */
   .footer_content{
     flex-direction: column;
@@ -71,6 +80,10 @@
     display: none;
   }
   .learning_heading{
+    font-size: 25px;
+  }
+  /* Stories */
+  .stories_heading{
     font-size: 25px;
   }
 }
