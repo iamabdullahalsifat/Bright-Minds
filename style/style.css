@@ -150,9 +150,6 @@ button{
   background-color: var(--btn-1);
 }
 /* ==(Main)== */
-#main{
-  background-image: url(../assets/image/bg.png), linear-gradient(to top, var(--linear-2) 0%, var(--bg-color) 100%);
-}
 /* Learning Journey */
 .learning{
   padding: 0 20px;
@@ -225,6 +222,7 @@ button{
 .stories{
   padding: 0 20px 50px;
   margin-top: 40px;
+  background-image: url(../assets/image/bg.png), linear-gradient(to top, var(--linear-2) 0%, var(--bg-color) 100%);
 }
 .stories_heading{
   text-align: center;
